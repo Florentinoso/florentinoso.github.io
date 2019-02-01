@@ -230,7 +230,7 @@ Overlay am Ende
 }
 
 @media only screen and (max-height: 800px) {
-  .containerino {
+  .imgeinpassen {
     max-height: 100vh
   }
 }  
