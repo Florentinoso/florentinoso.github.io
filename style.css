@@ -229,6 +229,12 @@ Overlay am Ende
   height: 20%;
 }
 
+@media only screen and (max-height: 800px) {
+  .containerino {
+    max-height: 100vh
+  }
+}  
+
 .text {
   white-space: nowrap; 
   color: white;
