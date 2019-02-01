@@ -1,0 +1,408 @@
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+.navbar-custom {
+    background-color: rgba(255,255,255,0.95) !important;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.45s ease;
+    z-index: 1030; 
+}
+.navlinks-center {
+position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}    
+
+.nav-item {
+    font-size: 2em !important;
+    font-weight: 700;
+} 
+
+.Schatten {box-shadow: 0px 5px 6px rgba(0,0,0,.4) !important;}
+
+.schattenoben {box-shadow: 0px -6px 6px -6px rgba(0,0,0,.4)}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #707070; 
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
+}
+
+.nav-item {
+	font-size: 2em !important;
+}
+.fullscreen {
+  min-height: 100vh;
+}
+
+.min-30 {
+  min-width: 30%
+  
+}
+
+.knopf {
+  background-color: #4F6BDE;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 5px 18px;
+  border-radius: 49px;
+}
+
+@media only screen and (min-height: 739px) {
+  .knopf {
+    margin-top: 9vh;
+  }
+}  
+
+@media only screen and (min-height: 1280px) {
+  .knopf {
+    margin-top: 13vh;
+  }
+}  
+
+
+#jumbotronhome {
+  background-image: linear-gradient(rgba(41, 57, 86, 0.5), rgba(41, 57, 86, 0.5)), url("battlefield.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px !important;
+}
+
+.eventbutton {
+  background-color: #1C1C30;
+  border:none;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  margin-left:-7px;
+}
+
+#jumbotronevent {
+  background-image: url(grill.jpg); height: 436px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+
+
+
+/*.event {
+  box-shadow: 0px 5px 6px rgba(0,0,0,.2)
+}*/
+
+.newsletter
+{
+  position: relative;
+  top: -100px;
+  padding: 70px;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 5px 6px rgba(0,0,0,.2);
+  border: none;
+  border-radius: 10px;
+}
+
+
+.footer {
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #2246DC;
+   color: white;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 25px;
+}
+Was zeichnet uns aus
+
+.abstandicons {
+  margin-top:   7%;
+  margin-left:  7%;
+  margin-right: 7%;
+}
+
+
+.align-center {
+    text-align: center;
+}
+
+.titel {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.beschreibung {
+  color: #707070;
+  font-size: 1em;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20%;
+  margin-bottom:0px;
+  
+}
+
+.logo {
+  padding-top: 25vh; max-width:300px
+}
+@media only screen and (max-width: 376px) {
+  .logo {
+    max-width: 200px;
+    margin-top: 7vh;
+  }
+}  
+
+
+.containerwir {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+
+
+
+.abstandgames {
+  padding: 0;
+  margin:  0;
+  max-height: 656px;
+}
+
+.Abstandoben {
+  padding-top: 70px;
+  margin-top: 0px;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.Abstandunten {
+  margin-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+
+Overlay am Ende
+.container-eigen {
+  width: 100%
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.containerino:hover .overlay {
+  height: 20%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.cover {
+  width: 260px;
+  object-fit: cover
+}
+
+.imgeinpassen {
+  max-width: 100%;
+height: 656px;
+object-fit: cover;
+}
+
+animation
+
+/* Grow*/
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Grow Shadow */
+
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+Text/Blog Sachen
+
+hr {
+  color: #2246DC;
+
+}
+
+
+/* Buzz Out */
+@-webkit-keyframes hvr-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+@keyframes hvr-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+.hvr-buzz-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
+  -webkit-animation-name: hvr-buzz-out;
+  animation-name: hvr-buzz-out;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+
+Sign-Up-Form
+
